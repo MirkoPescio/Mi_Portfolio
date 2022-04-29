@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirko Pescio - Portfolio</title>
+    <link href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" rel="stylesheet" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Mirko Pescio</a>
+            
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-book'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class='bx bx-briefcase-alt-2'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-detail'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Theme Change Button -->
+            <i class='bx bx-moon change-theme' id="theme-button"></i>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--=================== Home ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <span class="home__greeting">Hola, soy</span>
+                <h1 class="home__name">Mirko Pescio</h1>
+                <h3 class="home__education">FrontEnd Developer</h3>
+
+                <div class="home__buttons">
+                    <a download="" href="./CV/applicant_1042259067_CV_1038140540.pdf" class="button button--ghost">
+                        Descargar CV
+                    </a>
+                    <a href="#about" class="button">Mi Perfil</a>
+                </div>
+                <div class="home__handle">
+                    <img src="./images/Mirko-1.jpg" alt="mi-foto-principal" class="home__img">
+                </div>
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/" target="_blank" class="home__social-link">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+                    <a href="https://www.github.com/" target="_blank" class="home__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://www.netlify.com/" target="_blank" class="home__social-link">
+                        <i class='bx bxl-netlify'></i>
+                    </a>
+                </div>
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!--=================== Acerca ====================-->
+        <section class="about section" id="about">
+            <span class="section__subtitle">Principal</span>
+            <h2 class="section__title">Acerca de mí</h2>
+
+            <div class="about__container container grid">
+                <img src="./images/Mirko-2.jpg" alt="foto-perfil" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-award about__icon'></i>
+                            <h3 class="about__title">Desarrollador FrontEnd</h3>
+                            <span class="about__subtitle">CoderHouse</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 class="about__title">Proyectos</h3>
+                            <span class="about__subtitle">Archivados en GitHub</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-support about__icon'></i>
+                            <h3 class="about__title">Soporte</h3>
+                            <span class="about__subtitle">Online 24/7</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit eos nobis perspiciatis saepe quo ipsam assumenda deserunt, excepturi esse harum amet vel neque quibusdam consectetur tenetur sapiente cupiditate laboriosam illum.
+                    </p>
+                    <a href="#contact" class="button">Contacto</a>
+                </div>
+            </div>
+        </section>
+
+        <!--=================== Skills ====================-->
+        <section class="skills section" id="skills">
+            <span class="section__subtitle">FrontEnd Developer</span>
+            <h2 class="section__title">Mis Proyectos</h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">E-Commerce</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__level">Junior</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">CSS & SASS</h3>
+                                    <span class="skills__level">Junior</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Javascript</h3>
+                                    <span class="skills__level">Junior</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Bootstrap</h3>
+                                    <span class="skills__level">Junior</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">JQuery</h3>
+                                    <span class="skills__level">Junior</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Git & Github</h3>
+                                    <span class="skills__level">Junior</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__level">Junior</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Node JS & Firebase</h3>
+                                    <span class="skills__level">Junior</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=================== Services ====================-->
+        <section class="services section" id="services">
+            <span class="section__subtitle">Mi Perfil</span>
+            <h2 class="section__title">Lo que ofrezco</h2>
+
+            <div class="services__container container grid">
+                <div class="services__card">
+                    <h3 class="services__title">Desarrollador <br> Web</h3>
+                    <span class="services__button">
+                        Ver más <i class='bx bx-right-arrow-alt'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Desarrollador Web</h3>
+                            <p class="services__modal-description">
+                                Desarrollo de paginas web con HTML, CSS y JavaScript
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Interfaz de usuario
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Pagina Web Hosting
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Diseño responsive 
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">React <br> Developer</h3>
+                    <span class="services__button">
+                        Ver más <i class='bx bx-right-arrow-alt'></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Desarrollador Web</h3>
+                            <p class="services__modal-description">
+                                Desarrollo de paginas web usando la librería de React
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Validación de formularios
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        E-Commerce con procesadores de pagos
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--============================= Work =================================-->
+        <section class="work section" id="work">
+            <span class="section__subtitle">Mi Portfolio</span>
+            <h2 class="section__title">Proyectos Recientes</h2>
+
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter="all">Todos</span>
+                <span class="work__item" data-filter=".web">Diseño Web</span>
+                <span class="work__item" data-filter=".ecommerce">Ecommerce</span>
+            </div>
+
+            <div class="work__container container grid">
+                <div class="work__card mix ecommerce">
+                    <img src="./images/work-1.jpg" alt="work-1" class="work__img">
+                    <h3 class="work__title">E-Commerce con JQuery</h3>
+                    <a href="https://mirkopescio.github.io/JavaScript_proyecto_final_CoderHouse/"
+                    target="_blank" class="work__button">
+                        Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                </div>
+                <div class="work__card mix web">
+                    <img src="./images/work-2.jpg" alt="work-1" class="work__img">
+                    <h3 class="work__title">Pagina de diseño</h3>
+                    <a href="https://mirkopescio.github.io/Proyecto_Desarrollo_Web_CoderHouse/"
+                    target="_blank" class="work__button">
+                        Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                </div>
+                <div class="work__card mix ecommerce">
+                    <img src="./images/work-3.jpg" alt="work-1" class="work__img">
+                    <h3 class="work__title">E-Commerce con React</h3>
+                    <a href="https://mirkopesciodigitalbuy.netlify.app/"
+                    target="_blank" class="work__button">
+                        Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--================================= Contacto ========================================-->
+        <section class="contact section" id="contact">
+            <span class="section__subtitle">Contacto Directo</span>
+            <h2 class="section__title">Mi Contacto</h2>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title">Consultame lo que necesites</h3>
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">mirkopes.4050@gmail.com</span>
+
+                            <a href="mailto:mirkopes.4050@gmail.com" target="_blank" class="contact__button">
+                                Escribime <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                            </a>
+                        </div>
+                        <div class="contact__card">
+                            <i class='bx bxl-whatsapp contact__card-icon'></i>
+                            <h3 class="contact__card-title">WhatsApp</h3>
+                            <span class="contact__card-data">11-5806-9635</span>
+
+                            <a href="https://api.whatsapp.com/send?phone=541158069635&text=Hola, más información!" target="_blank" class="contact__button">
+                                Escribime <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                            </a>
+                        </div>
+                        <div class="contact__card">
+                            <i class='bx bxl-messenger contact__card-icon'></i>
+                            <h3 class="contact__card-title">Messenger</h3>
+                            <span class="contact__card-data">Mirko Pescio</span>
+
+                            <a href="https://m.me/MirkoPescio" target="_blank" class="contact__button">
+                                Escribime <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__content">
+                    <h3 class="contact__title">Describime tu proyecto</h3>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Nombre</label>
+                            <input type="text" placeholder="Ingrese su nombre" class="contact__form-input">
+                        </div>
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Mail</label>
+                            <input type="email" placeholder="Ingrese su e-mail" class="contact__form-input">
+                        </div>
+                        <div class="contact__form-div contact__form-area">
+                            <label for="" class="contact__form-tag">Proyecto</label>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Describa su proyecto" class="contact__form-input"></textarea>
+                        </div>
+
+                        <button class="button">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--=========================== Footer =============================-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h2 class="footer__title">Mirko Pescio</h2>
+
+            <ul class="footer__list">
+                <li>
+                    <a href="#about" class="footer__link">Acerca</a>
+                </li>
+                <li>
+                    <a href="#work" class="footer__link">Proyectos</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+                <a href="https://www.twitter.com/" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+            </ul>
+
+            <span class="footer__copy">
+                Mirko Pescio. Todos los derechos reservados <i class='bx bx-copyright'></i> 2022
+            </span>
+        </div>
+    </footer>
+
+    <script src="./js/mixitup.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
